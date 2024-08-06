@@ -30,11 +30,10 @@
 
         .malbar-container {
             background-color: #9a0056;
-            padding: 1%;
+            padding: 1% 0% 0% 0%;
             display: flex;
             justify-content: space-around;
             align-items: center;
-
 
         }
 
@@ -43,7 +42,7 @@
             color: white;
             display: flex;
             padding: 1%;
-            margin: 8px;
+            margin: 0px;
 
 
 
@@ -54,8 +53,9 @@
             border: none;
             border-bottom-style: solid;
             padding-block-end: 5px;
-            outline: none;
+            outline:none;
             color: white;
+            
 
         }
 
@@ -110,9 +110,6 @@
             border-top: none;
             border-left: none;
             text-align: "space-around";
-            /* border-bottom: 1px solid black;
-             */
-
 
         }
 
@@ -129,11 +126,15 @@
 
 
         }
+      
 
         .product-container .product-item i {
             position: absolute;
             top: 1%;
             padding-right: 4%;
+
+
+
         }
 
         .product-image2 {
@@ -147,6 +148,7 @@
             background-color: rgba(249, 249, 249, 255);
             font-family: sans-serif;
             box-shadow: none;
+            border: 1px solid rgba(0, 0, 0, 0.433);
 
 
         }
@@ -156,6 +158,60 @@
             border-radius: 4%;
         }
 
+
+
+
+
+        .product-container1 {
+
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 2%;
+            padding-left: 4%;
+            padding-right: 8%;
+            padding-top: 0%;
+width: 100%;
+height: auto;
+        }
+        .product-container11{
+            width: 83.5%;
+            margin-top: 2%;
+            padding-left: 6%;
+            padding-right: 0%;
+        }
+
+        .product-container1 .product-item i {
+            position: absolute;
+            top: 1%;
+            padding-right: 4%;
+
+
+
+        }
+
+
+        .product-item1 {
+
+
+
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+            padding: 2%;
+            border-radius: 15px;
+            background-color: rgba(249, 249, 249, 255);
+            border: 1px solid rgba(0, 0, 0, 0.433);
+        }
+
+
+
+
+        .product-image1 {
+
+            width: 100%;
+            border-radius: 4%;
+        }
+
+
+
         .price1 {
             text-decoration: line-through;
             padding-left: 6%;
@@ -164,41 +220,14 @@
 
         .product-item p2 {
             font-size: small;
+
         }
 
         .product-item p3 {
             font-size: 8px;
         }
 
-        .product-container1 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 2%;
-            padding-left: 6%;
-            padding-right: 6%;
-            padding-top: 0%;
-            width: 85%;
-
-
-        }
-
-        .product-item1 p2 {
-            font-size: small;
-        }
-
-        .product-item1 p3 {
-            font-size: 8px;
-        }
-
-
-
-        .product-item1 {
-            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
-            padding: 2%;
-            border-radius: 15px;
-            background-color: rgba(249, 249, 249, 255)
-        }
+        
 
         .product-image1 {
             width: 100%;
@@ -208,6 +237,7 @@
         .product-container1 .img2 {
             padding-top: 10%;
         }
+
 
         .product-container3 {
             display: grid;
@@ -222,7 +252,8 @@
             box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
             padding: 2%;
             border-radius: 15px;
-            background-color: rgba(249, 249, 249, 255)
+            background-color: rgba(249, 249, 249, 255);
+            border: 1px solid rgba(0, 0, 0, 0.433);
         }
 
         .product-image4 {
@@ -237,15 +268,27 @@
 
         .bio {
             font-family: sans-serif;
-            width: 90%;
+            width: 86%;
             height: 100%;
             border: 1px solid black;
             padding: 20px;
-            margin: 50px;
+            margin: 45px;
+            margin-bottom: 9px;
+
         }
 
-        .bio .p {
+        .bio p1 {
+            font-size: x-small;
+        }
+
+        .bio p {
             font-family: sans-serif;
+            font-size: small;
+
+        }
+
+        .bio a {
+            color: black;
         }
 
         .options select {
@@ -255,11 +298,97 @@
 
         .last {
             background-color: rgba(244, 241, 230, 255);
-
+            padding-left: 5%;
         }
 
         .last a {
             text-decoration: none;
+            color: #9a0056;
+            font-family: sans-serif;
+            font-size: smaller;
+
+        }
+
+        .a1 {
+            margin: 6px;
+        }
+
+
+        .social-media1 .social-media {
+            padding-left: 25%;
+
+        }
+
+        .social-media1 {
+            display: flex;
+            margin-left: 30%;
+            padding: 1.5%;
+        }
+
+        .social-media i {
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+            box-sizing: 2px;
+
+
+        }
+
+        .social-media2 {
+            display: flex;
+            margin-left: 8%;
+
+
+
+
+        }
+
+        .social-media2 img {
+
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+            font-size: 1.8rem;
+
+        }
+
+
+        .social-media i {
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+            font-size: 1.8rem;
+
+        }
+
+        .social-media img {
+            box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .last {
+            display: flex;
+        }
+
+        .social i {
+            font-size: 1.8rem;
+
+        }
+
+        .social img {
+            font-size: 1.8rem;
+
+        }
+
+        .social-media2.social-media i {
+
+            font-size: 1.8rem;
+        }
+
+        .social-media2.social-media img {
+            font-size: 1.8rem;
+        }
+
+        .address {
+            background-color: rgba(244, 241, 230, 255);
+            padding: 1%;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: small;
+
         }
     </style>
 </head>
@@ -434,11 +563,12 @@
 
 
     <div class="product-container">
-        <div class="product-item">
+        <div class="product-item" >
             <a><img class="product-image"
                     src="https://static.malabargoldanddiamonds.com/media/catalog/product/cache/1/thumbnail/433x/0dc2d03fe217f8c83829496872af24a0/p/d/pddzl41134.jpg"
                     alt="chain img" />
-                <i class="fa-regular fa-heart"></i>
+                
+                
             </a>
             <div class="price1-container" style="display: flex;">
                 <span class="price" style="color: #9a0056;">₹ 33,765 </span>
@@ -500,13 +630,14 @@
     </div>
     </div>
     <div>
-        <div class="product-container1" style="display: flex;">
-            <div class="product-item1">
-                <img class="product-image1"
+        <div class="product-container11" style="display: flex;">
+            <div class="product-item1" style="  border: 1px solid rgba(0, 0, 0, 0.433);">
+                <!-- <img class="product-image1"
                     src="https://static.malabargoldanddiamonds.com/media/wysiwyg/promises_imgs/malabar_promise.png"
-                    alt="chain img" />
+                    alt="chain img" /> -->
                 <div style="display: flex;">
-                    <div>
+                    <img src="pic.png" width="100%">
+                    <!-- <div>
                         <img class="product-image2"
                             src="https://static.malabargoldanddiamonds.com/media/wysiwyg/promises_imgs/lifetime.png"
                             width="25%" />
@@ -538,16 +669,16 @@
                         <img class="product-image2"
                             src="https://static.malabargoldanddiamonds.com/media/wysiwyg/promises_imgs/Certified-Diamonds.png"
                             width="55%" />
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
             <div>
                 <div class="product-container1" style="display: flex;">
-                    <div class="product-item1">
+                    <div class="product-item1" style="  border: 1px solid rgba(0, 0, 0, 0.433);" style="width: 85%;">
                         <a><img class="product-image1"
                                 src="https://static.malabargoldanddiamonds.com/media/catalog/product/cache/1/thumbnail/433x/0dc2d03fe217f8c83829496872af24a0/f/r/frdzl48052.jpg"
-                                alt="chain img" />
+                                alt="chain img" width="90%">
                         </a>
                         <div class="price1-container" style="display: flex;">
                             <span class="price" style="color: #9a0056;">₹ 33,765 </span>
@@ -555,12 +686,12 @@
                             <span class="price1" style="color: rgba(215,215,215,255)">₹ 34,462</span>
                         </div>
                         <div>
-                            <p2 class="id">SKU : PDDZL41134</p2><br>
-                            <p3 class="offer">10% OFF MAKING CHARGES</p3>
+                            <p2 style="font-size: small;"    class="id">SKU : PDDZL41134</p2><br>
+                            <p3  style=" font-size: 8px;"   class="offer">10% OFF MAKING CHARGES</p3>
                         </div>
 
                     </div>
-                    <div class="product-item1">
+                    <div class="product-item1" style="  border: 1px solid rgba(0, 0, 0, 0.433);">
                         <a>
                             <img class="product-image1"
                                 src="https://static.malabargoldanddiamonds.com/media/catalog/product/cache/1/thumbnail/433x/0dc2d03fe217f8c83829496872af24a0/f/r/frdzl48051.jpg"
@@ -570,8 +701,8 @@
 
                             <span class="price1" style="color: rgba(215,215,215,255)">₹ 62,334</span>
                         </div>
-                        <p2 class="id">SKU : FRDZL48256</p2><br>
-                        <p3 class="offer">10% OFF MAKING CHARGES</p3>
+                        <p2      style="font-size: small;" class="id">SKU : FRDZL48256</p2><br>
+                        <p3  style=" font-size: 8px;"    class="offer">10% OFF MAKING CHARGES</p3>
 
 
 
@@ -653,7 +784,7 @@
 
 
         <div>
-            <div class="product-container3" style="width: 55%;">
+            <div class="product-container3" style="width: 65%;">
                 <div class="product-item">
                     <a>
                         <img class="product-image"
@@ -685,16 +816,17 @@
 
                 </div>
 
-                <div>
+                
                     <a>
                         <img class="product-image5"
-                            src="https://static.malabargoldanddiamonds.com/media/catalog/category/Fair-price-11_606.jpg" />
+                            src="https://static.malabargoldanddiamonds.com/media/catalog/category/Fair-price-11_606.jpg"
+                            width="200%" />
                     </a>
-                </div>
+                
             </div>
         </div>
 
-
+<div style="padding-left: 3%;" style="padding-right: 5%;">
         <div class="bio">
             <h3>Gold Jewellery Designs for Women</h3>
             <h3>Gold Jewellery - Malabar Precious Treasure, assembled for your eternal pleasure.</h3>
@@ -908,117 +1040,200 @@
                 that it
                 is made our of 91.6% pure gold, and the remaining portion is other metals.</p1>
         </div>
+    </div>
         <div class="last" style="display: flex;">
 
-            <div class="a">
+            <div class="a" style="padding:2% 1% 1% 1% ;">
 
                 <h>Get To Know Us</h>
-                <div>
+                <hr>
+                <div class="a1">
                     <a href="">About Us</a>
                 </div>
-                <!-- <hr style="width: 5%;" style="padding-left:10%;"> -->
 
-                <div>
+
+                <div class="a1">
 
                     <a href="">Brides Of India</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Our Stores</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">CSR</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Blog</a>
                 </div>
 
             </div>
 
-            <div class="b">
+            <div class="b" style="padding: 2% 2% 1% 2%;">
                 <h> Malabar Promises</h>
-                <div>
+                <hr>
+                <div class="a1">
                     <a href="">Assured Lifetime Maintenance</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href=""> Complimentary Insurance</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">14 Days Return Policy</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Tested & Certified Diamonds</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">
                         Complete Transparency</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Easy Exchange</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Zero Deduction Gold Exchange</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">100% Huid Compliant Gold</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Guaranteed Buyback</a>
                 </div>
             </div>
 
-            <div class="c">
+            <div class="c" style="padding: 2% 2% 1% 2%;">
                 <h>Let Us Help You</h>
+                <hr>
 
-                <div>
-                    <a href="FAQ"></a>
+                <div class="a1">
+                    <a href="">FAQ</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Track My Order</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Ring Size Guide</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Bangle Size Guide</a>
                 </div>
-                <div>
+                <div class="a1">
                     <a href="">Site Map</a>
                 </div>
 
             </div>
-        
-        <div class="d"></div>
-        <h>Policies</h>
-        <div>
-            <a href="">Refund Policy</a>
-        </div>
-        <div>
-            <a href="">Buyback Policy</a>
-        </div>
-        <div>
-            <a href=""> Exchange Policy</a>
-        </div>
-        <div>
-            <a href="">Shipping Policy</a>
-        </div>
-        <div>
-            <a href=""> Cancellation Policy</a>
-        </div>
-        <div>
-            <a href="">
-                Privacy Policy</a>
-        </div>
-        <div>
-            <a href="">Terms of Service</a>
-        </div>
-        </div>
 
+            <div class="d" style="padding: 2% 2% 1% 2%;">
+                <h>Policies</h>
+                <hr>
+                <div class="a1">
+                    <a href="">Refund Policy</a>
+                </div>
+                <div class="a1">
+                    <a href="">Buyback Policy</a>
+                </div>
+                <div class="a1">
+                    <a href=""> Exchange Policy</a>
+                </div>
+                <div class="a1">
+                    <a href="">Shipping Policy</a>
+                </div>
+                <div class="a1">
+                    <a href=""> Cancellation Policy</a>
+                </div>
+                <div class="a1">
+                    <a href="">
+                        Privacy Policy</a>
+                </div>
+                <div class="a1">
+                    <a href="">Terms of Service</a>
+                </div>
+            </div>
+
+            <div class="e" style="padding: 2% 2% 1% 2%;">
+                <h>Useful Links</h>
+                <hr>
+
+                <div class="a1">
+                    <a href="">Scheme Payment (India only)</a>
+                </div>
+                <div class="a1">
+                    <a href="">Make to Order</a>
+                </div>
+                <div class="a1">
+                    <a href="">Offers</a>
+                </div>
+                <div class="a1">
+                    <a href="">Build Your Custom Jewellery</a>
+                </div>
+                <div class="a1">
+                    <a href="">Book an Appointment</a>
+                </div>
+
+                <div class="a1">
+                    <a href="">Careers</a>
+                </div>
+            </div>
+
+            <div class="f" style="padding: 2% 2% 1% 2%;">
+                <h>Customer Service </h>
+                <hr>
+                <div class="a1">
+                    <p><i class="fa-solid fa-phone-volume"></i><a>+91 22 62300916</a> (9.00am – 6.00pm)</p>
+
+                </div>
+                <div class="a1">
+                    <p> <i class="fa-brands fa-whatsapp"></i><a>9167780916</a> (9.00am – 6.00pm)
+                        </i></p>
+                </div>
+                <div class="a1">
+                    <a href="">care.in@malabargoldanddiamonds.com</a>
+                </div>
+                <div class="a1">
+                    <a href="">Malabar Gold & Diamonds</a>
+                </div>
+                <div class="a1">
+                    <a href="">
+                        Plot No 44, 45, Street Number 14,</a>
+                </div>
+                <div class="a1">
+                    <a href="">
+                        Marol MIDC Industry Estate,</a>
+                </div>
+                <div class="a1">
+                    <a href="">Andheri East,Mumbai -400093</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="last1" style="display: flex;">
+        <div class="social-media1">
+            <div class="social-media" style="color: #9a0056;">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="social-media" style="color: #9a0056;">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="social-media" style="color: #9a0056;">
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+            <div class="social-media" style="color: #9a0056;">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+        <div class="social-media2" style="padding: 1%;" style="box-shadow: none;">
+
+
+            <img src="logo.png" width="70%">
+
+        </div>
     </div>
 
+    <div class="address">
+        <p> © 2024 Malabar Gold & Diamonds. All Rights Reserved.</p>
+
+    </div>
 </body>
 
 </html>
-
-
-
-
